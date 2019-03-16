@@ -28,6 +28,6 @@ public class Main {
 		System.out.println("test operation add: " + testData1.plus(testData2).toString());
 		System.out.println("test operation minus: " + testData1.minus(testData2).toString());
 		System.out.println("test operation multiply: " + testData1.multiply(testData2).toString());
-		System.out.println("test operation mod: " + testData1.divide(testData2).toString());
+		System.out.println("test operation divide: " + testData1.divide(testData2).toString());
 	}
 }
