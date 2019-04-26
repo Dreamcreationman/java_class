@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultiThread<java_class>",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_five.MultiThread",
+            "projectName": "java_class"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NotePad<java_class>",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_four.NotePad",
+            "projectName": "java_class"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<java_class>",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_one.Main",
+            "projectName": "java_class"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CaculatorApplication<java_class>",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_three.CaculatorApplication",
+            "projectName": "java_class"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<java_class>",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_three.Test",
+            "projectName": "java_class"
+        }
+    ]
+}

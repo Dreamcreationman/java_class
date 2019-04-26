@@ -4,23 +4,22 @@
  * @Package: cn.yank.lesson_one.test 
  * @Description: TODO
  * @author Yank  
- * @date 2019Äê3ÔÂ16ÈÕ ÏÂÎç5:53:31 
+ * @date 2019ï¿½ï¿½3ï¿½ï¿½16ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½5:53:31 
  * @version 0.1 
  */
 
-
 package cn.yank.lesson_one.test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import cn.yank.lesson_one.Plural;
 
 /** 
  * @Description 
  * @author Yank
- * @date 2019Äê3ÔÂ16ÈÕ ÏÂÎç5:53:31 
+ * @date 2019ï¿½ï¿½3ï¿½ï¿½16ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½5:53:31 
  * @version V0.1
  */
 
