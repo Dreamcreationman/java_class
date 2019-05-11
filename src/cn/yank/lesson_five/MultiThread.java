@@ -117,20 +117,28 @@ public class MultiThread extends JFrame {
 	
 	class ComputationThread extends Thread{
 		
-		public double result = 1;
+		public Long result = 0L;
 		public int sleep = 0;
-		public int n = 0;
+		public Long n = 0L;
 		/**
 		 * Description  
 		 * @see java.lang.Thread#run() 
 		 */ 
-			
+		
+		public Long getJieCheng(Long a) {
+			Long n = 1L;
+			for (int i = 1; i <= a; i++) {
+				n *= i;
+			}
+			return n;
+		}
+		
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
 			while (true) {
 				sleep = (int)(Math.random() * 1000);
-				result = (n+1) * n / 2.0 ;
+				result +=  getJieCheng(n);
 				try {
 					sleep(sleep);
 				} catch (InterruptedException e) {
@@ -165,9 +173,9 @@ public class MultiThread extends JFrame {
 			// TODO Auto-generated method stub
 			
 			while(true) {
-				String s = "1";
+				String s = "1!";
 				for(int i =2 ;i<=thread.n;i++) {
-					s+="+"+i;
+					s+="+"+i+"!";
 				}
 				text.setText(s);
 				resultText.setText(String.valueOf(thread.result));

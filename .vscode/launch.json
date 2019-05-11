@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ClientApp",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_test.ClientApp",
+            "projectName": "java_class"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - severApp",
+            "request": "launch",
+            "mainClass": "cn.yank.lesson_test.severApp",
+            "projectName": "java_class"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
